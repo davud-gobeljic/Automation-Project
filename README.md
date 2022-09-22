@@ -40,6 +40,7 @@ I was always passionate about web testing and finding defects on the application
 * Logout test for check crutial logout funcionallity.
 * Register test from adding and validation of email, to various inputs from firstname, lastname, password, city, state exc.
 * Shopping tests to run whether basic funcionallity of e-commerce site is working, such as look for dress in a certaing category, pick a size, color ,price, buying a   dress and put in the cart, go to checkout, and finally buy the product.
+* 
 
 
 ## Installation
@@ -61,11 +62,15 @@ pytest-html - PyTest HTML reports
 pytest-xdist - Run test parallel
 allure-pytest - Generate allure reports
 ```
+
+
 # Install(Clone) software
 
 https://github.com/davud-gobeljic/Automation-Project.git
 Troubleshooting
 Please consider that this is a demo e-commerce website, it is high possillity to crash down due limited resource usage. If so, re-run the test for hopefully better site performance.
+
+
 
 # Maintainers
 `
