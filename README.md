@@ -11,13 +11,20 @@ E-commerce web application, smoke tests performed
 * Configuration
 * Troubleshooting
 * Maintainers
-* Introduction
-* This is e-commece demo web application http://automationpractice.com/index.php. Main goal on this project is to do automation on main functionality for this site. Smoke test is applyed to several test cases using Python3 and Selenium webdriver. Impertive is an actual user workflow.
+
+
+# Introduction
+
+This is e-commece demo web application http://automationpractice.com/index.php. Main goal on this project is to do automation on main functionality for this site. Smoke test is applyed to several test cases using Python3 and Selenium webdriver. Impertive is an actual user workflow.
+
 
 ## Motiovation
+
 I was always passionate about web testing and finding defects on the application. Quality assurance is so interesting, you get involved in the development of the application, also finding defects helps developers and the customer to get quality software. There are so many ways to test features, from manual to automation, there are so many different types of tests.
 
+
 ## Requirements
+
 * Windows 11
 * MacOS Monterey (Slightly mods needed)
 * Python3(Recommended)
