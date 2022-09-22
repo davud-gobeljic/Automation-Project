@@ -1,6 +1,5 @@
 import os
 import string
-import random
 import pytest
 from Utilities.readProperties import ReadConfig
 from Utilities.logger import LogGen
@@ -17,14 +16,14 @@ class Test_002_signUp():
 
     firstname = "John"
     lastname = "Doe"
-    email = "vsvoooo@gmail.com"
+    email = "johniotya@gmail.com"
     female = "female"
     male = "male"
     dayOfBirth = "24"
     monthOfBirth = "8"
     yearOfBirth = "1990"
-    password = "gdsogijsdo"
-    company = "AtlantBH"
+    password = "abcfftuoy"
+    company = "Atlaass"
     address = "Oleg Gunar 412"
     city = "New Yor"
     state = "New York"
@@ -38,9 +37,11 @@ class Test_002_signUp():
         self.log.info('************* Test_002 *************')
         self.log.info('************* Verifying SignUp *************')
 
+        # Webdriver
         self.driver = setup
         self.driver.get(self.baseURL)
 
+        # Instance od Sign class from pageObject
         self.signUp = SignUp(self.driver)
         self.signUp.signUp()
 
@@ -69,6 +70,7 @@ class Test_002_signUp():
 
         account_msg = "Welcome to your account"
 
+        # Validation
         if account_msg in self.msg:
             assert True
             self.driver.close()

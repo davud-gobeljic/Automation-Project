@@ -1,8 +1,5 @@
 import os
 import string
-
-import pytest
-
 from Utilities.readProperties import ReadConfig
 from Utilities.logger import LogGen
 from pageObjects.randomGenerator import RandomGen

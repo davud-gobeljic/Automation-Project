@@ -1,6 +1,5 @@
 import os
 import string
-import random
 import pytest
 from Utilities.readProperties import ReadConfig
 from Utilities.logger import LogGen

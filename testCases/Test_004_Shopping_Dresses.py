@@ -1,9 +1,7 @@
 import pytest
 from Utilities.readProperties import ReadConfig
 from Utilities.logger import LogGen
-from pageObjects.signUp_pageObject import SignUp
 from pageObjects.randomGenerator import RandomGen
-from selenium.webdriver.common.by import By
 from pageObjects.shoppingDresses_pageObject import Shopping_dresses as SD
 
 

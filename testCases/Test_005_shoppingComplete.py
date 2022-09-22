@@ -3,13 +3,10 @@ import string
 import pytest
 from Utilities.readProperties import ReadConfig
 from Utilities.logger import LogGen
-from pageObjects.signUp_pageObject import SignUp
 from pageObjects.randomGenerator import RandomGen
 from selenium.webdriver.common.by import By
-from pageObjects.shoppingDresses_pageObject import Shopping_dresses as SD
 from pageObjects.shoppingComplete_pageObject import ShoppingComplete
 from testCases.Test_002_signUp import Test_002_signUp
-from pageObjects.signIn_pageObject import SignIn
 
 
 class Test_005_shoppingComplete():
@@ -36,7 +33,7 @@ class Test_005_shoppingComplete():
         self.sopCmpl.proceedToCheckoutBTN()
         self.sopCmpl.proceedToCheckoutBTN2()
 
-        self.sopCmpl.signIn("kitoooo@gmail.com","gdsogijsdo")
+        self.sopCmpl.signIn("johniotya@gmail.com","abcfftuoy")
         self.sopCmpl.proceedToCheckoutBTN3()
         self.sopCmpl.agreeTermsandCond()
         self.sopCmpl.proceedToCheckoutBTN4()

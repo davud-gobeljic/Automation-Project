@@ -9,7 +9,6 @@ from selenium.webdriver.common.by import By
 from pageObjects.signIn_pageObject import SignIn
 from pageObjects.signUp_pageObject import SignUp
 from testCases.Test_002_signUp import Test_002_signUp as TestTwo
-from testCases.Test_003_signIn import Test_003_signIn as TestThree
 from pageObjects.signOut_pageObject import SignOut
 
 
