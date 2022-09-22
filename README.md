@@ -1,7 +1,7 @@
 # Automation-Project
 E-commerce web application, smoke tests performed
 
-##CONTENTS OF THIS FILE
+## CONTENTS OF THIS FILE
 * Introduction
 * Motivation
 * Requirements
@@ -32,9 +32,12 @@ I was always passionate about web testing and finding defects on the application
 * Log in test for check crutial login funcionallity.
 * Logout test for check crutial logout funcionallity.
 * Register test from adding and validation of email, to various inputs from firstname, lastname, password, city, state exc.
-* Shopping tests to run whether basic funcionallity of e-commerce site is working, such as look for dress in a certaing category, pick a size, color ,price, buying a * dress and put in the cart, go to checkout, and finally buy the product.
-* Installation
-* Use the package manager pip to install foobar.
+* Shopping tests to run whether basic funcionallity of e-commerce site is working, such as look for dress in a certaing category, pick a size, color ,price, buying a   dress and put in the cart, go to checkout, and finally buy the product.
+
+
+## Installation
+
+Use the package manager pip to install foobar.
 
 To execute all test in a Smoke category, type following command in PyCharm terminal:
 
@@ -58,4 +61,6 @@ Troubleshooting
 Please consider that this is a demo e-commerce website, it is high possillity to crash down due limited resource usage. If so, re-run the test for hopefully better site performance.
 
 # Maintainers
+`
 Davud Gobeljic - Quality Assurance (QA) Engineer
+`
