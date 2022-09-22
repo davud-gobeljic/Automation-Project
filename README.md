@@ -38,20 +38,21 @@ I was always passionate about web testing and finding defects on the application
 
 To execute all test in a Smoke category, type following command in PyCharm terminal:
 
-
+```
 pytest -s -v -m "smoke" --html=.Reports\report_smoke.html testCases/ --browser chrome
-
+```
 
 
 Execute following commands for install library:
-
+```
 selenium webdriver
 pytest
 pytest-html - PyTest HTML reports
 pytest-xdist - Run test parallel
 allure-pytest - Generate allure reports
-
+```
 # Install(Clone) software
+
 https://github.com/davud-gobeljic/Automation-Project.git
 Troubleshooting
 Please consider that this is a demo e-commerce website, it is high possillity to crash down due limited resource usage. If so, re-run the test for hopefully better site performance.
