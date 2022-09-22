@@ -30,7 +30,7 @@ I was always passionate about web testing and finding defects on the application
 * Python3(Recommended)
 * Python2
 * Pip3
-* 
+
 ## Technology/Frameworks
 
 All smoke tests were automated throught Selenium webdriver. I used Python3 to write the tests and hybrid framework for this project. Page object model where all logics are based in the objects classes. Pytest which means pytest is a command-line tool that automatically finds tests you've written, runs the tests, and reports the results. Package pytest-html is used to generate HTML reports for test results with clear UI, pytest-xdist can run tests parallel on several different browsers.
