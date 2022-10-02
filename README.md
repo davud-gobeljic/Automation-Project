@@ -69,7 +69,9 @@ allure-pytest - Generate allure reports
 # Install(Clone) software
 
 https://github.com/davud-gobeljic/Automation-Project.git
-Troubleshooting
+
+## Troubleshooting
+
 Please consider that this is a demo e-commerce website, it is high possillity to crash down due limited resource usage. If so, re-run the test for hopefully better site performance.
 
 
