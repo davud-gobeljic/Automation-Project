@@ -15,7 +15,7 @@ E-commerce web application, smoke tests performed
 
 # Introduction
 
-This is e-commece demo web application http://automationpractice.com/index.php. Main goal of this project is to do automation on main functionality for this site. Smoke test is applyed to several test cases using Python3 and Selenium webdriver. Impertive is an actual user workflow.
+This is e-commerce demo web application http://automationpractice.com/index.php. Main goal of this project is to do automation on main functionality for this site. Smoke test is applyed to several test cases using Python3 and Selenium webdriver. Impertive is an actual user workflow.
 
 
 ## Motiovation
